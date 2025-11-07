@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="portfolio.css">
+</head>
+
+
+
+
+<body class="scroll-smooth">
+
+  <!-- Navbar -->
+  <nav class="flex sticky top-0 items-center justify-between bg-black text-white px-6 py-3 z-50 shadow-md">
+    <div class="text-xl font-bold hover:scale-110 transition-transform">Portfolio.</div>
+    <div class="hidden md:flex space-x-6 font-bold">
+      <a href="#Home" class="hover:text-blue-500 transition-colors">Home</a>
+      <a href="#Aboutme" class="hover:text-blue-500 transition-colors">About</a>
+      <a href="#services" class="hover:text-blue-500 transition-colors">Services</a>
+      <a href="#skills" class="hover:text-blue-500 transition-colors">My Skills</a>
+      <a href="#projects" class="hover:text-blue-500 transition-colors">Projects</a>
+      <a href="#contact" class="hover:text-blue-500 transition-colors">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="Home" class="w-full min-h-screen bg-cover bg-center flex flex-col justify-center items-center text-center fade-up" 
+    style="background-image: url('assets/IMG_20250214_234115.jpg');">
+    <h1 class="text-3xl md:text-5xl font-bold text-black mb-3 animate-pulse">Hi, I'm Manohar</h1>
+    <p class="text-lg md:text-xl text-black mb-6">Software Developer | Web Developer</p>
+    <a href="#Aboutme" class="px-6 py-3 bg-black text-white rounded font-bold hover:bg-blue-600 hover:scale-105 transition-all duration-300">About Me</a>
+  </section>
+
+  <!-- About Section -->
+  <section id="Aboutme" class="flex justify-center items-center py-16 px-6 fade-up">
+    <div class="max-w-3xl text-center">
+      <h2 class="text-3xl font-bold mb-6">About Me</h2>
+      <p class="text-lg leading-relaxed mb-6">
+        I am a Computer Science graduate with a strong academic background and a passion for software development. 
+      </p>
+      <p class="text-lg leading-relaxed mb-6">
+        With excellent communication skills and a mindset for continuous learning, I adapt quickly to new environments and enjoy working in collaborative team settings. 
+      </p>
+      <p class="text-lg leading-relaxed mb-6">
+        I am especially interested in creating applications that enhance user experience and improve functionality through innovative features and clean design. 
+      </p>
+      <a href="#contact" class="inline-block px-6 py-2 bg-black text-white rounded hover:bg-blue-600 hover:scale-105 font-bold transition-all duration-300">Contact Me</a>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="py-16 text-center bg-slate-900 text-white fade-up">
+    <h2 class="text-3xl font-bold">Services</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12 px-6 max-w-6xl mx-auto">
+      <div class="p-6 bg-white text-black rounded-lg shadow hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
+        <h3 class="text-xl font-bold mb-3">Software Development</h3>
+        <p class="text-sm leading-relaxed">
+          Strong in design and integration with intuitive problem-solving skills. Proficient in Java, JavaScript, and SQL. Passionate about implementing and launching new projects. 
+          Ability to translate business requirements into technical solutions. Looking to start my career as an entry-level software engineer in a reputed, tech-driven firm.
+        </p>
+      </div>
+      <div class="p-6 bg-white text-black rounded-lg shadow hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
+        <h3 class="text-xl font-bold mb-3">Web Development</h3>
+        <p class="text-sm leading-relaxed">
+          Web Developer with a passion for web application development and success in managing projects using Agile and Lean methods. Skilled in designing, developing, and deploying software solutions that solve real-world problems efficiently.
+        </p>
+      </div>
+      <div class="p-6 bg-white text-black rounded-lg shadow hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
+        <h3 class="text-xl font-bold mb-3">UI/UX Development</h3>
+        <p class="text-sm leading-relaxed">
+          I'm also a UI/UX Designer with a background in Computer Science, which gives me a unique edge in empathizing with users and improving their experience through design. 
+          I constantly seek new ways to learn and grow through real-world projects.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-16  fade-up">
+    <h2 class="text-3xl font-bold text-center mb-12">My Skills</h2>
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-8 text-center max-w-5xl mx-auto px-6">
+      <div class="flex flex-col items-center hover:scale-110 transition-transform duration-300">
+        <img class="max-w-[120px] md:max-w-[160px] mb-4 rounded-lg shadow" src="assets/html.jpg" alt="HTML">
+        <p class="text-xl font-bold text-red-500">Development</p>
+        <p>HTML</p>
+      </div>
+      <div class="flex flex-col items-center hover:scale-110 transition-transform duration-300">
+        <img class="max-w-[120px] md:max-w-[160px] mb-4 rounded-lg shadow" src="assets/css.jpg" alt="CSS">
+        <p class="text-xl font-bold text-red-500">Development</p>
+        <p>CSS</p>
+      </div>
+      <div class="flex flex-col items-center hover:scale-110 transition-transform duration-300">
+        <img class="max-w-[120px] md:max-w-[160px] mb-4 rounded-lg shadow" src="assets/js.jpg" alt="JavaScript">
+        <p class="text-xl font-bold text-red-500">Development</p>
+        <p>JavaScript</p>
+      </div>
+      <div class="flex flex-col items-center hover:scale-110 transition-transform duration-300">
+        <img class="max-w-[120px] md:max-w-[160px] mb-4 rounded-lg shadow" src="assets/java.jpg" alt="Java">
+        <p class="text-xl font-bold text-red-500">Programming</p>
+        <p>Java</p>
+      </div>
+      <div class="flex flex-col items-center hover:scale-110 transition-transform duration-300">
+        <img class="max-w-[120px] md:max-w-[160px] mb-4 rounded-lg shadow" src="assets/mySql.jpg" alt="MySQL">
+        <p class="text-xl font-bold text-red-500">Database</p>
+        <p>MySQL</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-16 bg-slate-900 fade-up">
+    <h2 class="text-white text-3xl font-bold text-center mb-12">My Projects</h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto px-6">
+      <!-- Project 1 -->
+      <div class="bg-white rounded-lg shadow-lg hover:-translate-y-2 transition-all duration-300">
+        <img src="assets/fitnessTracker.jpg" alt="Fitness Tracker" class="rounded-t-lg w-full h-48 object-cover">
+        <div class="p-6">
+          <h3 class="text-xl font-bold mb-3">Online Fitness Tracker</h3>
+          <p class="text-sm leading-relaxed mb-4">
+            A web app to track workouts, meals, and calories. Built with Java, JSP, Servlets, and MySQL. 
+            Designed a responsive UI using HTML, CSS, and JavaScript.
+          </p>
+          <a href="#" target="_blank" class="text-blue-600 font-bold hover:underline">View Project</a>
+        </div>
+      </div>
+
+
+      <!-- Project 2 -->
+      <div class="bg-white rounded-lg shadow-lg hover:-translate-y-2 transition-all duration-300">
+        <img src="assets/NestNavigation.png" alt="Nest Navigation" class="rounded-t-lg w-full h-48 object-cover">
+        <div class="p-6">
+          <h3 class="text-xl font-bold mb-3">Nest Navigation</h3>
+          <p class="text-sm leading-relaxed mb-4">
+            designed the user interface using Figma.The main idea of this app is to help people find hostels and rooms in unknown areas.It shows nearby hostels with details like distance, price, and availability.
+          </p>
+          <a href="https://www.figma.com/proto/i79FxX57pIJ5NgxFxtxMiU/Nest-Navigation?page-id=0%3A1&node-id=1-3&starting-point-node-id=1%3A3&t=tdCI7BPaxFnaMqLM-1" target="_blank" class="text-blue-600 font-bold hover:underline">View Project</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 bg-black text-white fade-up">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto px-6">
+      
+      <!-- Contact Info -->
+      <div class="flex flex-col justify-center text-center">
+        <h2 class="text-3xl font-bold mb-4">Contact Me</h2>
+        <p class="mb-2">Manohar Sunnapuwar</p>
+        <p class="hover:text-blue-500 mb-2">manoharchary71@gmail.com</p>
+        <p class="mb-2">9347360146</p>
+        <a class="hover:text-blue-500" href="https://www.linkedin.com/in/manohar-sunnapuwar-01b268243/">LinkedIn</a>
+      </div>
+      
+      <!-- Contact Form -->
+      <div class="flex flex-col items-center">
+        <form class="w-full max-w-md lg:max-w-lg xl:max-w-2xl bg-gray-900 p-6 rounded-lg shadow-lg space-y-4">
+          <label class="block">Name:</label>
+          <input class="w-full border-2 border-white text-black bg-white h-10 rounded px-2 focus:ring-2 focus:ring-blue-500 transition" type="text">
+
+          <label class="block">Email:</label>
+          <input class="w-full border-2 border-white text-black bg-white h-10 rounded px-2 focus:ring-2 focus:ring-blue-500 transition" type="email">
+
+          <label class="block">Phone Number:</label>
+          <input class="w-full border-2 border-white text-black bg-white h-10 rounded px-2 focus:ring-2 focus:ring-blue-500 transition" type="tel">
+
+          <label class="block">Subject:</label>
+          <input class="w-full border-2 border-white text-black bg-white h-10 rounded px-2 focus:ring-2 focus:ring-blue-500 transition" type="text">
+
+          <button type="submit" class="w-32 h-10 bg-blue-500 rounded text-white font-bold hover:bg-blue-600 hover:scale-105 transition-all">Submit</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <script src="portfolio.js"></script>
+</body>
+</html>
